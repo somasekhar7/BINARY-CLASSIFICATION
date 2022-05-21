@@ -14,14 +14,15 @@
  3.	Assign the counter value using the Counter Function and with the help of a for loop iterate over the values.
  4.	Plot the row values in the graph.
 ## Program:
+```
 /* 
 Program to implement binary classification. 
 
 Developed by: DARISI VENKTA VEERA SOMASEKHAR
 
 Register Number: 212219040024
-*/
-
+*/```
+```
 
 from numpy import where
 
@@ -50,6 +51,7 @@ for label,_ in counter.items():
   pyplot.scatter(X[row_ix,0],X[row_ix,1],label=str(label))
     
   pyplot.legend() 
+  ```
 
 ## Output:
 
