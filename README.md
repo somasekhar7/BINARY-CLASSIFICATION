@@ -21,7 +21,8 @@ Program to implement binary classification.
 Developed by: DARISI VENKTA VEERA SOMASEKHAR
 
 Register Number: 212219040024
-*/```
+*/
+```
 ```
 
 from numpy import where
@@ -42,7 +43,7 @@ print(counter)
 
 for i in range(5): 
 
-    print(X[i],y[i]) 
+ print(X[i],y[i]) 
 
 for label,_ in counter.items():     
 
